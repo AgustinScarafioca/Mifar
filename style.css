@@ -78,6 +78,7 @@ header{
     padding: 1rem;
 }
 
+/*
 .platformButton{
     width: 10rem;
     height: 2rem;
@@ -86,6 +87,7 @@ header{
     background-color: rgb(175, 173, 173);
     border-radius: 5px;
 }
+*/
 
 nav{
     grid-area: nav;
