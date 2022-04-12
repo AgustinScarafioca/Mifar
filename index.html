@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mifar</title>
     <link rel="shortcut icon" href="/Mifar/Images/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <!-- Css Comentado -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS link -->
@@ -14,49 +15,70 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="gridContainer">
+        <div class="container">
             <!-- Header -->
             <header>
-                <div class="header__container">
-                    <div class= topHeader>
-                        <a class="topHeader__logo" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
+                <div class="row">
+                    <div class= "col">
+                        <a class="p-16px" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
                         <h1 class="topHeader__title">Mifar</h1>
                     </div>
-                    <div class="platformAccess">
+                    <div class="col d-flex align-items-center d-flex justify-content-center">
                         <button class="platformButton">Acceso a la plataforma</button>  
                     </div>
                 </div>
-                <nav>
-                    <ul class="navList">
-                        <li class="nav__link"><a class="nav__link--index" href="index.html">Home</a></li>
-                        <li class="nav__link"><a class="nav__link--prestadores" href="prestadores.html">Prestadores</a></li>
-                        <li class="nav__link"><a class="nav__link--asociarse" href="asociarse.html">Asociarse</a></li>
-                        <li class="nav__link"><a class="nav__link--nosotros" href="nosotros.html">Nosotros</a></li>
-                        <li class="nav__link"><a class="nav__link--contact" href="contact.html">Contacto</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav list-unstyled list-inline f justify-content-space-between">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="prestadores.html">Prestadores</a></li>
+                                <li class="nav-item"><a class="nav-link" href="asociarse.html">Asociarse</a></li>
+                                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </header>
             <!-- Main -->
             <main class="mainIndex">
-                <div class="mainIndex__text">
-                    <h2 class="mainIndex__text--title">Lorem, ipsum.</h2>
-                    <p class="mainIndex__text mainIndex__text--p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non excepturi voluptates harum. Dolorum pariatur in placeat provident corrupti natus velit omnis enim, ratione, dolores dolorem modi minus obcaecati saepe eveniet.</p>
-                    <p class="mainIndex__text mainIndex__text--p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quae facilis sapiente quisquam ullam laboriosam fugiat nisi atque.</p>
-                </div>
-                <div class="mainIndex__image hover__img">
-                    <img class="mainIndex__image--img" src="Images/indexsample.jpg" alt="indexsample">
+                <div class="row bg-info.bg-gradient">
+                    <div class="col-md-6 lead">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="mainIndex__text--title ">Lorem, ipsum.</h2>
+                        </div>
+                        <p class="mainIndex__text mainIndex__text--p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non excepturi voluptates harum. Dolorum pariatur in placeat provident corrupti natus velit omnis enim, ratione, dolores dolorem modi minus obcaecati saepe eveniet.</p>
+                        <p class="mainIndex__text mainIndex__text--p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quae facilis sapiente quisquam ullam laboriosam fugiat nisi atque.</p>
+                    </div>
+                    <div class="col-md-6 hover__img">
+                        <img class="img-thumbnail" src="Images/indexsample.jpg" alt="indexsample">
+                    </div>
                 </div>
             </main>
             <!-- Footer -->
             <footer>
-                <div class="footerText">
-                    <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
-                    <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
-                </div>
-                <div class="footerRedes">
-                    <a class="footerRedesLink footerRedesLink__instagram" href="https://instagram.com" target="_blank"><img src="Images/instagramlogo.svg" alt="Instagram"></a>
-                    <a class="footerRedesLink footerRedesLink__twitter" href="https://twitter.com" target="_blank"><img src="Images/twitterlogo.svg" alt="Twitter"></a>
-                    <a class="footerRedesLink footerRedesLink__facebook" href="https://facebook.com" target="_blank"><img src="Images/facebooklogo.svg" alt="Facebook"></a>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
+                        <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="row">
+                                <a class="d-flex justify-content-center align-items-center" href="https://instagram.com" target="_blank"> <img src="Images/instagram.svg" ></svg></a>
+                            </div>
+                            <div class="row">
+                                <a class="d-flex justify-content-center align-items-center" href="https://twitter.com" target="_blank"><img src="Images/twitter.svg" alt="Twitter"></a>
+                            </div>
+                            <div class="row">
+                                <a class="d-flex justify-content-center align-items-center" href="https://facebook.com" target="_blank"><img src="Images/facebook.svg" alt="Facebook"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
