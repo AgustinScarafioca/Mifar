@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mifar</title>
-    <link rel="shortcut icon" href="/Mifar/Images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.jpg" type="image/x-icon">
     <!-- Css Comentado -->
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -19,63 +19,78 @@
             <!-- Header -->
             <header>
                 <div class="row">
-                    <div class= "col">
-                        <a class="p-16px" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
-                        <h1 class="topHeader__title">Mifar</h1>
+                    <div class= "col p-5">
+                        <a class="p-3" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
+                        <h1 class="p-3 topHeader__title">Mifar</h1>
                     </div>
-                    <div class="col d-flex align-items-center d-flex justify-content-center">
-                        <button class="platformButton">Acceso a la plataforma</button>  
+                    <div class="col d-flex align-items-center d-flex justify-content-end p-5">
+                        <button type="button" class="btn btn-primary">Acceso a la plataforma</button>   
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav list-unstyled list-inline f justify-content-space-between">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="prestadores.html">Prestadores</a></li>
-                                <li class="nav-item"><a class="nav-link" href="asociarse.html">Asociarse</a></li>
-                                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
             </header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav list-unstyled list-inline f justify-content-space-between">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="prestadores.html">Prestadores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="asociarse.html">Asociarse</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         <!-- Main -->
-        <main class="mainContact">
-            <div class="contactDiv">
-                <h2 class="contactDiv__title">Lorem, ipsum.</h2>
-                <p class="contactDiv__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint beatae, atque facere quis quasi animi?</p>
-                <img class="contactDiv__img hover__img" src="Images/contactsample.jpg" alt="contactsample">
-            </div>
-            <!-- Form -->
-            <div class="mainForm">
-                <form class="contactForm" action="">
-                    <div class="labelForm__contact">
-                        <label class="labelForm__phone--contact" for="phone">Ingrese su numero de telefono</label><input class="inputForm__contact inputForm__contact--phone" type="number" name="phone" id="" placeholder="Telefono" required>
-                        <label class="labelForm__email--contact" for="email">Ingrese su Email</label><input class="inputForm__contact inputForm__contact--email" type="email" name="email" id="" placeholder="Email" required>
-                    </div class="labelForm__contact">
-                        <label class="labelForm__extra--contact" for="extra">Consulta</label><textarea class="inputForm__contact inputForm__contact--extra" name="extra" id="" cols="30" rows="10" placeholder="Ingrese aqui su consulta"></textarea>
-                    </div>
-                    <div>
-                        <button class="mainForm__button" type="submit">Enviar</button>
-                    </div>
-                </form>
+        <main class="container bg-info">
+            <div class="container-fluid p-5">
+                <div class="col text-center">
+                    <h2 class="p-3 m-1">Lorem, ipsum.</h2>
+                    <p class="p-3 m-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint beatae, atque facere quis quasi animi?</p>
+                    <img class="img-thumbnail img-fluid m-1" src="Images/contactsample.jpg" alt="contactsample">
+                </div>
+                <!-- Form -->
+                <div class="col text-center">
+                    <form class="m-5" action="">
+                        <div class="p-3">
+                            <label class="" for="phone">Ingrese su numero de telefono</label><input class="inputForm__contact inputForm__contact--phone" type="number" name="phone" id="" placeholder="Telefono" required>
+                        </div>
+                        <div>
+                            <label class="p-3" for="email">Ingrese su Email</label><input class="inputForm__contact inputForm__contact--email" type="email" name="email" id="" placeholder="Email" required>
+                        </div>
+                        <div class="">
+                            <label class="p-3 m-3" for="extra">Consulta</label><textarea class="inputForm__contact inputForm__contact--extra p-2" name="extra" id="" cols="25" rows="8" placeholder="Ingrese aqui su consulta"></textarea>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-success m-2">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </main>
         <!-- Footer -->
-        <footer>
-            <div class="footerText">
-                <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
-                <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
-            </div>
-            <div class="footerRedes">
-                <a class="footerRedesLink footerRedesLink__instagram" href="https://instagram.com" target="_blank"><img src="Images/instagramlogo.svg" alt="Instagram"></a>
-                <a class="footerRedesLink footerRedesLink__twitter" href="https://twitter.com" target="_blank"><img src="Images/twitterlogo.svg" alt="Twitter"></a>
-                <a class="footerRedesLink footerRedesLink__facebook" href="https://facebook.com" target="_blank"><img src="Images/facebooklogo.svg" alt="Facebook"></a>
+        <footer class="">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
+                    <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
+                </div>
+                <div class="col-md-6 justify-items-center align-content-center p-3">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://instagram.com" target="_blank"> <img src="Images/instagram.svg" ></svg></a>
+                        </div>
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://twitter.com" target="_blank"><img src="Images/twitter.svg" alt="Twitter"></a>
+                        </div>
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://facebook.com" target="_blank"><img src="Images/facebook.svg" alt="Facebook"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>

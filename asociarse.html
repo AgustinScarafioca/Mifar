@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mifar</title>
-    <link rel="shortcut icon" href="/Mifar/Images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.jpg" type="image/x-icon">
     <!-- Css Comentado -->
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -19,67 +19,85 @@
             <!-- Header -->
             <header>
                 <div class="row">
-                    <div class= "col">
-                        <a class="p-16px" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
-                        <h1 class="topHeader__title">Mifar</h1>
+                    <div class= "col p-5">
+                        <a class="p-3" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
+                        <h1 class="p-3 fs-1 topHeader__title">Mifar</h1>
                     </div>
-                    <div class="col d-flex align-items-center d-flex justify-content-center">
-                        <button class="platformButton">Acceso a la plataforma</button>  
+                    <div class="col d-flex align-items-center d-flex justify-content-end p-5">
+                        <button type="button" class="btn btn-primary">Acceso a la plataforma</button>   
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav list-unstyled list-inline f justify-content-space-between">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="prestadores.html">Prestadores</a></li>
-                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="asociarse.html">Asociarse</a></li>
-                                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
             </header>
-        <!-- Main -->
-        <main class="mainAsociarse">
-            <div class="mainAsociarse__div">
-                <h2 class="mainAsociarse__title">Lorem, ipsum.</h2>
-                <p class="mainAsociarse__p">Con los siguientes datos un asesor capacitado se comunicara con usted y le brindara mas informacion.</p>
-            </div>
-            <div class="mainForm__asoc">
-                <form class="form__asoc" action="">
-                    <div class="labelAsociarse__align">
-                        <div class="labelForm__asoc">
-                            <label class="labelForm__name" for="name">Ingrese su nombre completo:</label><input class="inputForm__asoc inputForm__asoc--name" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
-                        </div>
-                        <div class="labelForm__asoc">
-                            <label class="labelForm__email" for="email">Ingrese su Email:</label><input class="inputForm__asoc inputForm__asoc--email" type="email" name="email" id="" placeholder="Email" required>
-                        </div>
-                        <div class="labelForm__asoc">
-                            <label class="labelForm__phone" for="phone">Ingrese su numero de telefono:</label><input class="inputForm__asoc inputForm__asoc--phone" type="number" name="phone" id="" placeholder="Telefono" required>
-                        </div>
-                        <div class="labelForm__asoc">
-                            <label class="labelForm__age" for="age">Fecha de nacimiento:</label><input class="inputForm__asoc inputForm__asoc--age" type="date" name="age" id="" required>
-                        </div>
-                        <button class="formButton__asoc" type="submit">Enviar</button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav list-unstyled list-inline f justify-content-space-between">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="prestadores.html">Prestadores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="asociarse.html">Asociarse</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                        </ul>
                     </div>
-                </form>
-            </div> 
+                </div>
+            </nav>
+        <!-- Main -->
+        <main class="container">
+            <div class="col bg-info">
+                <div class="lead text-center m-3 p-3">
+                    <h2 class="">Lorem, ipsum.</h2>
+                    <p class="p-3">Con los siguientes datos un asesor capacitado se comunicara con usted y le brindara mas informacion.</p>
+                </div>
+                <div class="">
+                    <form class="" action="">
+                        <div class="form-group">
+                            <div class="form-group m-5">
+                                <label class="formGroupExampleInput" for="name">Ingrese su nombre completo:</label>
+                                <input class="inputForm__asoc inputForm__asoc--name" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
+                            </div>
+                            <div class="form-group m-5">
+                                <label class="" for="email">Ingrese su Email:</label>
+                                <input class="inputForm__asoc inputForm__asoc--email" type="email" name="email" id="" placeholder="Email" required>
+                            </div>
+                            <div class="form-group m-5">
+                                <label class="labelForm__phone" for="phone">Ingrese su numero de telefono:</label>
+                                <input class="inputForm__asoc inputForm__asoc--phone" type="number" name="phone" id="" placeholder="Telefono" required>
+                            </div>
+                            <div class="form-group m-5">
+                                <label class="labelForm__age" for="age">Fecha de nacimiento:</label>
+                                <input class="inputForm__asoc inputForm__asoc--age" type="date" name="age" id="" required>
+                            </div>
+                            <div class="text-center m-5 p-3">
+                                <button type="button " class="btn btn-success">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div> 
+            </div>
         </main>
         <!-- Footer -->
-        <footer>
-            <div class="footerText">
-                <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
-                <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
-            </div>
-            <div class="footerRedes">
-                <a class="footerRedesLink footerRedesLink__instagram" href="https://instagram.com" target="_blank"><img src="Images/instagramlogo.svg" alt="Instagram"></a>
-                <a class="footerRedesLink footerRedesLink__twitter" href="https://twitter.com" target="_blank"><img src="Images/twitterlogo.svg" alt="Twitter"></a>
-                <a class="footerRedesLink footerRedesLink__facebook" href="https://facebook.com" target="_blank"><img src="Images/facebooklogo.svg" alt="Facebook"></a>
+        <footer class="">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>
+                    <p class="footerText footerText--p2" >Telefono emergencias: 0800-111-000</p>
+                </div>
+                <div class="col-md-6 justify-items-center align-content-center p-3">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://instagram.com" target="_blank"> <img src="Images/instagram.svg" ></svg></a>
+                        </div>
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://twitter.com" target="_blank"><img src="Images/twitter.svg" alt="Twitter"></a>
+                        </div>
+                        <div class="row w-25">
+                            <a class="d-flex justify-content-center align-items-center" href="https://facebook.com" target="_blank"><img src="Images/facebook.svg" alt="Facebook"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
