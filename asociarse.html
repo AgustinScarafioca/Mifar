@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="Images/favicon.jpg" type="image/x-icon">
     <!-- Css Comentado -->
     <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- Css Bootstrap personalizado -->
+    <link rel="stylesheet" href="styleBootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS link -->
@@ -19,11 +21,11 @@
             <!-- Header -->
             <header>
                 <div class="row">
-                    <div class= "col p-5">
+                    <div class= "col p-5 col-12 col-md-6 text-center text-md-start">
                         <a class="p-3" href="index.html"><img src="Images/logo.svg" alt="logo" class="top__header--logo"></a>
-                        <h1 class="p-3 fs-1 topHeader__title">Mifar</h1>
+                        <h1 class="p-3">Mifar</h1>
                     </div>
-                    <div class="col text-center d-flex align-items-center justify-content-center p-5">
+                    <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center justify-content-md-end p-3 p-md-5">
                         <button type="button" class="btn btn-primary">Acceso a la plataforma</button> 
                     </div>
                 </div>
@@ -46,8 +48,8 @@
             </nav>
         <!-- Main -->
         <main class="container">
-            <div class="col bg-info">
-                <div class="lead text-center m-3 p-3">
+            <div class="col bg-info m-3 p-3">
+                <div class="lead text-center m-2">
                     <h2 class="">Lorem, ipsum.</h2>
                     <p class="p-3">Con los siguientes datos un asesor capacitado se comunicara con usted y le brindara mas informacion.</p>
                 </div>
@@ -55,20 +57,20 @@
                     <form class="" action="">
                         <div class="form-group">
                             <div class="form-group m-5">
-                                <label class="formGroupExampleInput" for="name">Ingrese su nombre completo:</label>
-                                <input class="inputForm__asoc inputForm__asoc--name" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
+                                <label class="col-12 col-md-4" for="name">Ingrese su nombre completo:</label>
+                                <input class="col-12 col-md-4" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
                             </div>
                             <div class="form-group m-5">
-                                <label class="" for="email">Ingrese su Email:</label>
-                                <input class="inputForm__asoc inputForm__asoc--email" type="email" name="email" id="" placeholder="Email" required>
+                                <label class="col-12 col-md-4" for="email">Ingrese su Email:</label>
+                                <input class="col-12 col-md-4" type="email" name="email" id="" placeholder="Email" required>
                             </div>
                             <div class="form-group m-5">
-                                <label class="labelForm__phone" for="phone">Ingrese su numero de telefono:</label>
-                                <input class="inputForm__asoc inputForm__asoc--phone" type="number" name="phone" id="" placeholder="Telefono" required>
+                                <label class="col-12 col-md-4" for="phone">Ingrese su numero de telefono:</label>
+                                <input class="col-12 col-md-4" type="number" name="phone" id="" placeholder="Telefono" required>
                             </div>
                             <div class="form-group m-5">
-                                <label class="labelForm__age" for="age">Fecha de nacimiento:</label>
-                                <input class="inputForm__asoc inputForm__asoc--age" type="date" name="age" id="" required>
+                                <label class="col-12 col-md-4" for="age">Fecha de nacimiento:</label>
+                                <input class="col-12 col-md-4" type="date" name="age" id="" required>
                             </div>
                             <div class="text-center m-5 p-3">
                                 <button type="button " class="btn btn-success">Enviar</button>
