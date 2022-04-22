@@ -1,0 +1,174 @@
+/* Animaciones */
+.mainIndex__text--title {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.2s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainIndex__text {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  overflow: hidden;
+}
+
+.mainPrestadores__title {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainPrestadores__p--1 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.5s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainPrestadores__p--1 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.5s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainPrestadores__ul--1 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.8s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainPrestadores__p--2 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainPrestadores__ul--2 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2.3s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+/* Animaciones nosotros */
+.mainNosotros__img--1 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainNosotros__textContainer--1 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_derecha;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainNosotros__img--2 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_derecha;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainNosotros__textContainer--2 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainNosotros__img--3 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_izquierda;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 6s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+.mainNosotros__textContainer--3 {
+  position: relative;
+  /* Animation */
+  animation-name: entra_derecha;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 6s;
+  animation-delay: 0;
+  overflow: hidden;
+}
+
+@keyframes entra_izquierda {
+  0% {
+    right: 300%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+@keyframes entra_derecha {
+  0% {
+    left: 300%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+/*# sourceMappingURL=styleBootstrap.css.map */
