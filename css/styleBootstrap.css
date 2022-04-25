@@ -1,5 +1,10 @@
 main {
-  background: linear-gradient(to top, rgba(36, 149, 55, 0.934), rgba(61, 255, 93, 0.934));
+  background: linear-gradient(to top, rgba(36, 149, 147, 0.934), rgba(61, 249, 255, 0.934));
+}
+
+.header__title {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 /* Animaciones */
