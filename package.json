@@ -16,5 +16,8 @@
     "url": "https://github.com/AgustinScarafioca/Mifar/issues"
   },
   "homepage": "https://github.com/AgustinScarafioca/Mifar#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
