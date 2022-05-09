@@ -19,19 +19,19 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="container">
-            <!-- Header -->
-            <header>
-                <div class="row">
-                    <div class= "col p-3 col-12 col-md-6 text-center text-md-start">
-                        <a class="p-3" href="index.html"><img src="Images/logo.svg" alt="Logo Mifar" class="top__header--logo"></a>
-                        <h1 class="p-3 header__title">Mifar</h1>
-                    </div>
-                    <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center justify-content-md-end p-3 p-md-5">
-                        <button type="button" class="btn btn-primary">Acceso a la plataforma</button> 
-                    </div>
+        <!-- Header -->
+        <header>
+            <div class="row">
+                <div class= "col p-3 col-12 col-md-6 text-center text-md-start">
+                    <a class="p-3" href="index.html"><img src="Images/logo.svg" alt="Logo Mifar" class="top__header--logo"></a>
+                    <h1 class="p-3 header__title">Mifar</h1>
                 </div>
-            </header>
+                <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center justify-content-md-end p-3 p-md-5">
+                    <button type="button" class="btn btn-primary">Acceso a la plataforma</button> 
+                </div>
+            </div>
+        </header>
+        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,42 +48,43 @@
                     </div>
                 </div>
             </nav>
-        <!-- Main -->
-        <main class="container">
-            <div class="col m-0 p-3">
-                <div class="lead text-center m-2">
-                    <h2 class="">Lorem, ipsum.</h2>
-                    <p class="p-3">Con los siguientes datos un asesor capacitado se comunicara con usted y le brindara mas informacion.</p>
+            <!-- Main -->
+            <main class="container-fluid">
+                <div class="col m-0 p-3">
+                    <div class="lead text-center m-2">
+                        <h2 class="">Lorem, ipsum.</h2>
+                        <p class="p-3">Con los siguientes datos un asesor capacitado se comunicara con usted y le brindara mas informacion.</p>
+                    </div>
+                    <div class="">
+                        <form class="" action="">
+                            <div class="form-group">
+                                <div class="form-group m-5">
+                                    <label class="col-12 col-md-4" for="name">Ingrese su nombre completo:</label>
+                                    <input class="col-12 col-md-4" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
+                                </div>
+                                <div class="form-group m-5">
+                                    <label class="col-12 col-md-4" for="email">Ingrese su Email:</label>
+                                    <input class="col-12 col-md-4" type="email" name="email" id="" placeholder="Email" required>
+                                </div>
+                                <div class="form-group m-5">
+                                    <label class="col-12 col-md-4" for="phone">Ingrese su numero de telefono:</label>
+                                    <input class="col-12 col-md-4" type="number" name="phone" id="" placeholder="Telefono" required>
+                                </div>
+                                <div class="form-group m-5">
+                                    <label class="col-12 col-md-4" for="age">Fecha de nacimiento:</label>
+                                    <input class="col-12 col-md-4" type="date" name="age" id="" required>
+                                </div>
+                                <div class="text-center m-5 p-3">
+                                    <button type="button " class="btn btn-success">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div> 
                 </div>
-                <div class="">
-                    <form class="" action="">
-                        <div class="form-group">
-                            <div class="form-group m-5">
-                                <label class="col-12 col-md-4" for="name">Ingrese su nombre completo:</label>
-                                <input class="col-12 col-md-4" type="text" name="nombre" id="" placeholder= "Nombres y apellidos" required>
-                            </div>
-                            <div class="form-group m-5">
-                                <label class="col-12 col-md-4" for="email">Ingrese su Email:</label>
-                                <input class="col-12 col-md-4" type="email" name="email" id="" placeholder="Email" required>
-                            </div>
-                            <div class="form-group m-5">
-                                <label class="col-12 col-md-4" for="phone">Ingrese su numero de telefono:</label>
-                                <input class="col-12 col-md-4" type="number" name="phone" id="" placeholder="Telefono" required>
-                            </div>
-                            <div class="form-group m-5">
-                                <label class="col-12 col-md-4" for="age">Fecha de nacimiento:</label>
-                                <input class="col-12 col-md-4" type="date" name="age" id="" required>
-                            </div>
-                            <div class="text-center m-5 p-3">
-                                <button type="button " class="btn btn-primary">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div> 
-            </div>
-        </main>
+            </main>
+        </div>
         <!-- Footer -->
-        <footer class="p-3">
+        <footer class="p-3 m-2">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
                     <p class="footerText footerText--p1">Copyright 2022 Lorem, ipsum.</p>

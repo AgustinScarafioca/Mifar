@@ -1,0 +1,24 @@
+$mapcolors: (
+    color1: (#03045E),
+    color2: (#023E8A),
+    color3: (#0077B6),
+    color4: (#0096C7),
+    color5: (#00B4D8),
+    color6: (#48CAE4),
+    color7: (#90E0EF),
+    color8: (#ADE8F4),
+    color9: (#CAF0F8)
+);
+
+
+main{
+    background-image: linear-gradient(to top, map-get($mapcolors, "color4"), map-get($mapcolors, "color8"));
+}
+
+body{
+    background: rgba(200, 200, 200, 0.434);
+}
+
+nav{
+    background-color: map-get($mapcolors, "color8");
+}
