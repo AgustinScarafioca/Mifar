@@ -11359,4 +11359,8 @@ nav {
   font-weight: bold;
 }
 
-/*# sourceMappingURL=styleBootstrap.css.map */
+.mainIndex__text--title {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
